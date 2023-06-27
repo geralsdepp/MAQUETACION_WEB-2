@@ -1,0 +1,87 @@
+
+
+header {
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    margin:2rem 1.5rem ;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    background: url(../recursos/logo.png);
+    font-size: 0;
+    position: absolute;
+    top: 10;
+    left: .75rem;
+    z-index: 10;
+}
+
+#seccion1{
+margin-top: 60px;
+
+}
+
+
+.aclaraciones {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+.btn {
+    margin-top: 1rem;
+}
+
+.btn-success{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    margin-bottom: 2rem;
+}
+
+footer{
+    height: fit-content;
+    width: 100%;
+    background-color: #333;
+    color: antiquewhite;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.redes a img{
+    width: 40px;
+    display: block;
+    margin: 8px;
+}
+
+.redes ul li{
+    justify-content: center;
+    color: rgb(147,140,140);
+    display: inline-flex;
+    list-style-type:none;
+}
+
+.copy p{
+    text-align:end;
+    justify-content:flex-end;
+    color: rgb(147, 140, 140);
+    margin-bottom: 0;
+}
+
+.imagen{
+    width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 767px){
+
+    #logo{
+        left: calc(50%-20px)
+    }
+}
